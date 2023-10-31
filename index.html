@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
+    <title>Speech Recognition Weather and Time Extension</title>
+    <link rel="stylesheet" href="style.css"> <!-- Add a link to your CSS stylesheet -->
+    <link rel="manifest" href="manifest.json">
+</head>
+<body style="width: 400px; height:450px;">
+   
+        <h2>SayTime Meteorologist</h2>
+        <p>Click and Speak to get the weather and time information for a place.</p>
+        <center><button id="start-recognition" class="circular-button">
+            <img src="Images\siri.png" alt="Microphone">
+        </button></center>
+        <H3>  Time and Date details</H3> 
+        <table>
+            <tr>
+                <th>Place:</th>
+                <td><span id="place-name"></span></td>
+            </tr>
+            <tr>
+                <th>Region and Country:</th>
+                <td><span id="region-country"></span></td>
+            </tr>
+            <tr>
+                <th>Date:</th>
+                <td><span id="date"></span></td>
+            </tr>
+            <tr>
+                <th>Time:</th>
+                <td><span id="time"></span></td>
+            </tr>
+        </table>
+            
+            <H3>  Weather Information</H3>  
+                
+        <table>
+            <tr>
+                <th>Temperature:</th>
+                <td><span id="weather-info"></span>°C</td>
+            </tr>
+            <tr>
+                <th>Feels like:</th>
+                <td><span id="feelslike"></span>°C</td>
+            </tr>
+            <tr>
+                <th>Wind speed:</th>
+                <td><span id="speed"></span> mph</td>
+            </tr>
+            <tr>
+                <th>Humidity:</th>
+                <td><span id="humidity"></span> grams/m3</td>
+            </tr>
+            <tr>
+                <th>Precipitation:</th>
+                <td><span id="precipitation"></span> mm</td>
+            </tr>
+            
+        </table>
+           <center>
+           <img id="sunny-image" src="Images\sunny.gif" alt="Sunny" class="weather-image sunny">
+<img id="rainy-image" src="Images\rain.webp" alt="Rainy" class="weather-image rainy">
+<img id="cloudy-image" src="Images\cloudy.gif" alt="Cloudy" class="weather-image cloudy">
+<img id="night-image" src="Images\night.gif" alt="Night" class="weather-image night">
+
+
+</center>
+    <h2>Developed by FOSS-CIT</h2>       
+   
+
+    <script src="app.js"></script>
+  </body>
+<body>
+   
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "SayTime Meteorologist",
+    "short_name": "Weather and time extension using speech recognition",
+    "author": "Shakthivel K",
+    "action": {
+        "default_popup": "index.html",
+        "default_name": "Weather and time extension"
+    },
+    "description": "A web app for displaying live weather and time"
+}
