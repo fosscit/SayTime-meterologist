@@ -11,10 +11,10 @@ This browser extension enables users to effortlessly retrieve real-time weather 
 
 # How to Use
 
-1. **Installation:** Download and install the extension zip file and add it to your extensions. In site settings of this extension give microphone access. 
-2. **Activation:** Click on the extension icon or use the defined keyboard shortcut to start the speech recognition feature.
-3. **Speak:** Once activated, speak the name of the place to fetch its weather and time details.
-4. **Enjoy:** Instantly view the retrieved data in an easy-to-understand format.
+1. **Installation:** Download and install the extension zip file and add it to your extensions. In site settings of this extension permit microphone access. 
+3. **Activation:** Click on the extension icon or use the defined keyboard shortcut to start the speech recognition feature.
+4. **Speak:** Once activated, speak the name of the place to fetch its weather and time details.
+5. **Enjoy:** Instantly view the retrieved data in an easy-to-understand format.
 
 ## Technologies Used
 
