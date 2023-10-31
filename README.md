@@ -1,5 +1,4 @@
-SayTime Meterologist
-# Weather & Time Extension with Speech Recognition
+# SayTime Meterologist - Weather & Time Extension with Speech Recognition
 
 This browser extension enables users to effortlessly retrieve real-time weather and time information using speech recognition.
 
